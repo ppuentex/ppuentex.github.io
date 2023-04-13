@@ -1,8 +1,9 @@
 # Site settings
 title: Patricia Puente
 email: ppuente@arizona.edu
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: https://ppuentex.github.io/
+description: "Patricia Puente personal website"
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "PhD Student in Applied Mathematics - Research in Hydrology"
 meta_author: LastName FirstName
@@ -25,7 +26,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: DF9A57 #18bc9c #80B3FF
+  primary: E1B07E #18bc9c #80B3FF
   primary-rgb: "128,179,255" # "24,288,156" #"128,179,255"
   secondary: 587b7f #2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
