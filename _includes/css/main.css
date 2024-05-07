@@ -35,6 +35,11 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+hr {
+    height: 5px; /* Adjust this value to make the hr thicker */
+      background-color: #4B5842; /* Optional: Set the background color of the hr */
+      border: none; /* Optional: Remove any default border */
+}
 
 hr.star-light,
 hr.star-primary {
