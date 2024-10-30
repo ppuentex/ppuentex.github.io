@@ -37,8 +37,8 @@ h6 {
 }
 hr {
     height: 5px; /* Adjust this value to make the hr thicker */
-      background-color: #4B5842; /* Optional: Set the background color of the hr */
-      border: none; /* Optional: Remove any default border */
+    background-color: #4B5842; /* Optional: Set the background color of the hr */
+    border: none; /* Optional: Remove any default border */
 }
 
 hr.star-light,
@@ -487,3 +487,17 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* CSS for responsive iframe */
+.pdf-viewer {
+    width: 100%;
+    height: 75vh; /* Set a responsive height */
+    max-height: 600px; /* Limit max height on large screens */
+  }
+  
+  /* Additional media query for smaller screens */
+  @media (max-width: 768px) {
+    .pdf-viewer {
+      height: 50vh; /* Reduce height for mobile screens */
+    }
+  }
